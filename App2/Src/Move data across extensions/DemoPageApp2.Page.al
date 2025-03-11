@@ -1,4 +1,4 @@
-page 50100 DemoPage
+page 50200 "DemoPage - App 2"
 {
     PageType = Card;
     ApplicationArea = All;
