@@ -1,0 +1,93 @@
+customers:
+  - No: "C001"
+    Name: "John Smith"
+    Address: "123 Oak Street"
+    City: "Boston"
+    PostCode: "02108"
+    email: "john.smith@email.com"
+
+  - No: "C002"
+    Name: "Sarah Johnson"
+    Address: "456 Maple Avenue"
+    City: "Chicago"
+    PostCode: "60601"
+    email: "sarah.j@email.com"
+
+  - No: "C003"
+    Name: "Michael Brown"
+    Address: "789 Pine Road"
+    City: "Seattle"
+    PostCode: "98101"
+    email: "mbrown@email.com"
+
+  - No: "C004"
+    Name: "Lisa Anderson"
+    Address: "321 Elm Drive"
+    City: "Denver"
+    PostCode: "80202"
+    email: "lisa.a@email.com"
+
+  - No: "C005"
+    Name: "Robert Wilson"
+    Address: "555 Cedar Lane"
+    City: "Miami"
+    PostCode: "33101"
+    email: "rwilson@email.com"
+  
+vendors:
+  - No: "V001"
+    Name: "Global Electronics"
+    Address: "789 Tech Blvd"
+    City: "San Jose"
+    PostCode: "95110"
+    email: "sales@globalelec.com"
+
+  - No: "V002"
+    Name: "Office Supplies Plus"
+    Address: "234 Market Street"
+    City: "Portland"
+    PostCode: "97201"
+    email: "orders@officesupplies.com"
+
+  - No: "V003"
+    Name: "Quality Parts Co"
+    Address: "567 Industrial Way"
+    City: "Detroit"
+    PostCode: "48201"
+    email: "info@qualityparts.com"
+
+  - No: "V004"
+    Name: "Green Packaging Inc"
+    Address: "890 Eco Drive"
+    City: "Austin"
+    PostCode: "78701"
+    email: "contact@greenpack.com"
+
+  - No: "V005"
+    Name: "Tech Solutions Ltd"
+    Address: "123 Innovation Park"
+    City: "Boston"
+    PostCode: "02110"
+    email: "support@techsolutions.com"
+
+items:
+  - No: "I001"
+    Description: "Laptop Computer"
+    Unit: "PCS"
+    UnitPrice: 999.99
+    VendorNo: "V001"
+  - No: "I002"
+    Description: "Office Chair"
+    Unit: "PCS"
+    UnitPrice: 199.99
+    VendorNo: "V002"
+  - No: "I003"
+    Description: "Network Cable"
+    Unit: "MTR"
+    UnitPrice: 2.99
+    VendorNo: "V001"
+  - No: "I004"
+    Description: "Wireless Mouse"
+    Unit: "PCS"
+    UnitPrice: 29.99
+    VendorNo: "V001"

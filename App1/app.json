@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "26.0.0.0",
+  "application": "26.0.30643.31063",
   "idRanges": [
     {
       "from": 50100,
@@ -31,5 +31,8 @@
   ],
   "source": {
     "repositoryUrl": "https://github.com/waldo1001/waldo.DemoBC2024W2"
-  }
+  },
+  "resourceFolders": [
+    "Src/ReadYaml"
+  ]
 }
