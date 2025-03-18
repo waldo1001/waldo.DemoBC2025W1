@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition">
+    <Body>
+        <ReportItems>
+            <Tablix Name="Tablix1">
+                <TablixBody>
+                    <TablixColumns>
+                        <TablixColumn>
+                            <Width>2in</Width>
+                        </TablixColumn>
+                        <TablixColumn>
+                            <Width>2in</Width>
+                        </TablixColumn>
+                        <TablixColumn>
+                            <Width>2in</Width>
+                        </TablixColumn>
+                    </TablixColumns>
+                    <TablixRows>
+                        <TablixRow>
+                            <Height>0.25in</Height>
+                            <TablixCells>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="NameLabel">
+                                            <Value>=Fields!Name_Caption.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="AddressLabel">
+                                            <Value>=Fields!Address_Caption.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="CityLabel">
+                                            <Value>=Fields!City_Caption.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                            </TablixCells>
+                        </TablixRow>
+                        <TablixRow>
+                            <Height>0.25in</Height>
+                            <TablixCells>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="Name">
+                                            <Value>=Fields!Name.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="Address">
+                                            <Value>=Fields!Address.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                                <TablixCell>
+                                    <CellContents>
+                                        <Textbox Name="City">
+                                            <Value>=Fields!City.Value</Value>
+                                        </Textbox>
+                                    </CellContents>
+                                </TablixCell>
+                            </TablixCells>
+                        </TablixRow>
+                    </TablixRows>
+                </TablixBody>
+            </Tablix>
+        </ReportItems>
+        <Height>0.5in</Height>
+    </Body>
+    <Width>6in</Width>
+</Report>

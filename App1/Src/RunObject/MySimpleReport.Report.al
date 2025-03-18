@@ -4,6 +4,7 @@ report 50100 "My Simple Report"
     ToolTip = 'This is a simple report.';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
+    DefaultRenderingLayout = CustomLayout;
 
     dataset
     {
@@ -35,6 +36,20 @@ report 50100 "My Simple Report"
                     Caption = 'Options';
                 }
             }
+        }
+    }
+
+    rendering
+    {
+
+        layout(CustomLayout)
+        {
+            Type = RDLC;
+            LayoutFile = 'MySimpleReport.rdlc';
+
+            ObsoleteState = Pending;
+            ObsoleteTag = 'v26';
+            ObsoleteReason = 'Demo';
         }
     }
 }
