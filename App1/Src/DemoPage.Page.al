@@ -44,6 +44,16 @@ page 50100 DemoPage
                     BreakDemo.TestBreak();
                 end;
             }
+            action(ShowCallStack)
+            {
+                ApplicationArea = All;
+                Caption = 'Show Call Stack';
+                Image = Stages;
+                trigger OnAction()
+                begin
+                    Codeunit.Run(codeunit::"GetCallStack Demo");
+                end;
+            }
             action(IncStr)
             {
                 ApplicationArea = All;
@@ -71,16 +81,6 @@ page 50100 DemoPage
                     ResetYamlData: Codeunit "InsertDemoData";
                 begin
                     ResetYamlData.ResetData();
-                end;
-            }
-            action(ShowCallStack)
-            {
-                ApplicationArea = All;
-                Caption = 'Show Call Stack';
-                Image = Stages;
-                trigger OnAction()
-                begin
-                    Codeunit.Run(codeunit::"GetCallStack Demo");
                 end;
             }
         }

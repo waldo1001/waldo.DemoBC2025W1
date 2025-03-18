@@ -5,7 +5,12 @@ codeunit 50103 "MethodAccessProperties"
         JsonObj: JsonObject;
         TheKey: Text;
         Value: Variant;
+        jTok: JsonToken;
     begin
+
+        JsonObj.Get('lineNumber', jTok);
+        Value := jtok.AsValue().AsBoolean();
+
         Value := JsonObj.GetBoolean(TheKey, true);
         value := JsonObj.GetByte(TheKey, true);
         value := JsonObj.GetChar(TheKey, true);

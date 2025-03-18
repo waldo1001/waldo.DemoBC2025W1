@@ -12,6 +12,7 @@ codeunit 50105 InsertDemoData
             ResourceStream.ReadText(valueText);
             valueTextBuilder.AppendLine(valueText);
         end;
+
         JData.ReadFromYaml(valueTextBuilder.ToText());
 
         InsertCustomersFromJson(JData);

@@ -30,9 +30,10 @@
     "NoImplicitWith"
   ],
   "source": {
-    "repositoryUrl": "https://github.com/waldo1001/waldo.DemoBC2024W2"
+    "repositoryUrl": "https://github.com/waldo1001/waldo.DemoBC2025W1",
+    "commit": "a33d3b3a7c8f9e1d2b4c5a6f8d9e0c1b2a3f4d5e"
   },
   "resourceFolders": [
-    "Src/ReadYaml"
+    "Src/9. ReadYaml"
   ]
 }
